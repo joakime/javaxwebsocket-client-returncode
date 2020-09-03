@@ -18,16 +18,11 @@
 
 package org.eclipse.jetty.demo;
 
-import java.io.IOException;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.TimeUnit;
 import javax.websocket.CloseReason;
 import javax.websocket.Endpoint;
 import javax.websocket.EndpointConfig;
 import javax.websocket.MessageHandler;
 import javax.websocket.Session;
-
-import org.eclipse.jetty.util.component.LifeCycle;
 
 /**
  * Basic Echo Client Endpoint
